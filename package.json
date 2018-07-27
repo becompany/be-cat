@@ -1,0 +1,25 @@
+{
+  "name": "be-dog",
+  "version": "1.0.0",
+  "description": "BeCompany's web component to display random cats pictures.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && webpack",
+    "clean": "del-cli dist"
+  },
+  "keywords": [
+    "web-component",
+    "tutorial",
+    "cat"
+  ],
+  "author": "Javier Puerto <javier.puerto@becompany.ch>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "x-tag": "^2.0.9-alpha",
+    "del-cli": "^1.1.0",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "be-media": "https://github.com/becompany/be-media.git"
+  }
+}
