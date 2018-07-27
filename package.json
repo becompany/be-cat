@@ -2,7 +2,7 @@
   "name": "be-dog",
   "version": "1.0.0",
   "description": "BeCompany's web component to display random cats pictures.",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "npm run clean && webpack",
     "clean": "del-cli dist"
